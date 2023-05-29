@@ -1,0 +1,86 @@
+body{
+	background-image: url("OIP (1).jfif");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+div {
+	margin: 5px;
+	height: 34px;
+	align-items: center;
+}
+.logform{
+	background-color: aqua;
+	width: 350px;
+	height: 450px;
+	margin-left: 550px;
+	margin-top: 150px;
+	border-radius: 80px 20px 100px 5px; 
+}
+.error {
+	color: red;
+	font-weight: bold;
+	font-size: 130%;
+}
+
+.label-float {
+	float: left;
+	width: 80px;
+	padding: 8px 16px;
+	margin-right: 5px;
+	background-color: #dddddd;
+}
+
+input[type=text], input[type=email] {
+	padding: 8px 16px;
+	width: 250px;
+}
+
+input[type=checkbox], input[type=radio] {
+	width: 24px;
+	height: 24px;
+	vertical-align: bottom;
+	margin-left: 30px;
+}
+
+select {
+	width: 286px;
+	padding: 8px 16px;
+}
+
+input[type=submit] {
+	color: white;
+	width: 100px;
+	background-color: #4CAF50;
+	padding: 8px 16px;
+	margin: 10px auto;
+}
+
+.chkbox-lbl {
+	border: 2px dotted grey;
+	display: inline-block;
+	width: 50px;
+	height: 24px;
+	padding:0 5px;
+}
+
+fieldset {
+	width: 385px;
+}
+
+table {
+	border: 1px solid gray;
+	border-collapse: collapse;
+	background-color: lightblue;
+}
+
+tr:nth-child(odd) {
+	background-color: white;
+}
+
+td {
+	padding: 5px;
+}
+
+th, td {
+	border: 1px solid gray;
+}
